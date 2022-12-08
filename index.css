@@ -140,6 +140,7 @@ header {
 
 .product:hover{
     color: #ff0038;
+    transform: scale(1.02);
 }
 
 
@@ -147,7 +148,7 @@ header {
 
 
 
-@media (max-width: 1320px){
+@media (max-width: 2200px){
     .offers{
         grid-template-areas: 
         'one two three four'
