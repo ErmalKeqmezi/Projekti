@@ -200,7 +200,7 @@ header {
         width: fit-content;
         margin: 80px auto 0 auto;
         text-align: center;
-        transfition: 0.5s;
+        transition: 0.5s;
         opacity: 0;
     }
 
