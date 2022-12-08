@@ -11,6 +11,35 @@
     <script src="index.js"></script>
 </head>
 <body class="home">
+    <header class="nav">
+        <div class="logo">
+            
+        </div>
+
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="">About Us</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">Log in</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
     <!--        Hero Section        -->
     <main class="hero-section">
         <div>
@@ -26,7 +55,7 @@
 
 <section class="offers-container">
     <h2>Best Offers!</h2>
-    <p>Qmimet mat lira n krejt rajonin</p>    
+    <p>Çmimet me te lira ne rajon</p>    
 </section>
 
     <section class="offers">
@@ -89,5 +118,12 @@
     </section>
     <!-- /Offers -->
 
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
