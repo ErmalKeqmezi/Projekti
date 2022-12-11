@@ -326,6 +326,17 @@ margin: 0 2rem;
 
 }
 
+/* Produkti */
+
+.produkti-link:visited{
+    color: #010101;
+}
+.produkti-link{
+    text-decoration:  none;
+}
+
+/* End of produkti */
+
 /*slideshow*/
 
 /* .slideShow {
