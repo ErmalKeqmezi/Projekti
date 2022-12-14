@@ -96,6 +96,7 @@ input[type="radio"]{
 }
 .form-inner form {
     width: 50%;
+    transition: all 0.3s ease;
 }
 form .field{
     height: 50px;
