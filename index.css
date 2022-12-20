@@ -2,12 +2,13 @@
 header {
     width: 93.5%;
     height: 80px;
-    background-color: #010101;
+    background-color: #0f0f0f;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
     border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
@@ -22,6 +23,7 @@ header {
 
 .nav-bar ul {
     display: flex;
+    list-style: none;
 }
 
 
@@ -34,6 +36,7 @@ header {
     transition: 0.2s;
     margin: 0 5px;
     text-decoration: none;
+    justify-content: ;
 }
 
 .nav-bar ul li a:hover {
@@ -141,6 +144,11 @@ header {
 .product:hover{
     color: #ff0038;
     transform: scale(1.02);
+}
+
+.footer-menu * a{
+    text-decoration: none;
+    color: #0f0f0f;
 }
 
 
@@ -288,6 +296,8 @@ margin: 0 2rem;
 
 /* footer */
 
+
+
 .uil{
     
     font-size: 30px;
@@ -297,10 +307,10 @@ margin: 0 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     /* margin: 30px; */
-    justify-content: space-around;
-    margin-left: 210px;
-    align-items: center;
-    margin-right: 30px;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    padding-left: 5%;
+   
     
 }
 .footer-menu{
